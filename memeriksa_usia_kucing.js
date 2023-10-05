@@ -24,7 +24,7 @@ const checkCats = (catsTuti, catsNining) => {
     }
 }
 
-// Jalankan fungsi untuk kedua set data uji
+// Menjalankan fungsi untuk kedua set data uji
 
 // Data uji 1
 const data1Tuti = [3, 5, 2, 12, 7];
