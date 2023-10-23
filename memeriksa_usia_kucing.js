@@ -1,10 +1,10 @@
 // Function untuk memeriksa usia kucing
 const checkCats = (catsTuti, catsNining) => {
 
-    // Salin array catsTuti ke correctedTuti untuk menghindari perubahan data asli
+    // Menyalin array catsTuti ke correctedTuti untuk menghindari perubahan data asli
     const correctedTuti = catsTuti.slice();
 
-    // Hapus usia kucing pertama dan terakhir
+    // Menghapus usia kucing pertama dan terakhir
     correctedTuti.shift();
     correctedTuti.pop();
 
